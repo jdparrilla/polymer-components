@@ -1,0 +1,11 @@
+title: polymer-page
+templateScript: /polymer-components-module/templates/pages/polymer-page.ftl
+renderType: freemarker
+dialog: polymer-components-module:pages/polymer-page
+visible: true
+
+areas:
+  main:
+    availableComponents:
+      polymer-google-maps-component:
+        id: polymer-components-module:components/polymer-google-maps-component

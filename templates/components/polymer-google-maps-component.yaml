@@ -1,0 +1,4 @@
+title: polymer-google-maps-component
+renderType: freemarker
+templateScript: /polymer-components-module/templates/components/polymer-google-maps-component.ftl
+dialog: polymer-components-module:components/polymer-google-maps-component

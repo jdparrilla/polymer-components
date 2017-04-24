@@ -1,0 +1,14 @@
+{
+  "name": "polymer-components-module",
+  "description": "Polymer components",
+  "main": "",
+  "authors": [
+    "jdiaz"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.9.1",
+    "google-map": "Polymer/google-map#^1.2.0"
+  }
+}

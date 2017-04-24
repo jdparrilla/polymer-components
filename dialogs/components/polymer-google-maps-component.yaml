@@ -1,0 +1,24 @@
+form:
+  label: google-maps
+  tabs:
+    - name: tabMain
+      label: Main
+      fields:
+
+        - name: title
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Title
+
+        - name: latitude
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Latitude
+
+        - name: longitude
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Longitude
+
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition
